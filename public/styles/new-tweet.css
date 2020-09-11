@@ -1,0 +1,39 @@
+label {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.new-tweet {
+  margin-bottom: 5em;
+}
+
+#tweet-text {
+  width: 100%;
+}
+
+.tweet-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  display: flex;
+  background-color: #4056A1;
+  color: white;
+  border: none;
+  margin-top: .3em;
+  padding: 3px;
+}
+
+textarea[placeholder="What are you humming about?"] {
+  display: flex;
+  align-items: center;
+
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

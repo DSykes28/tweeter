@@ -18,8 +18,67 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ main {
+   display: flex;
+   flex: 0;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #f3f1ec;
+   margin-top: var(--header-height);
+ }
+
+
+main > * {
+  width: 90%;
+}
+ 
+.profile {
+  margin-top: .7em;
+  padding: .6em;  
+}
+
+article {
+  flex-direction: column;
+  display: flex;
+  border-style: inset;
+  border-color: black;
+  margin-top: 1em;
+}
+article p{
+  display: flex;
+  margin-left: 1em;
+}
+article:hover{
+  border-color: gray;
+  overflow: hidden;
+}
+article:hover .tagName {
+  color: gray;
+}
+
+header.tweets {
+  display: flex;
+  justify-content: space-between;
+  margin: .5em;
+}
+
+.tagName {
+  color: #f4f1ec;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 0.8em;
+  margin: .5em
+}
+

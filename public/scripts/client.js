@@ -4,3 +4,10 @@
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
 
+document.addEventListener('DOMContentLoaded', function () {
+  
+//  document.getElementById('tweet-text').addEventListener('keyup', (evt) => {
+//    console.log(evt);
+//  });
+
+})
