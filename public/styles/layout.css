@@ -35,6 +35,9 @@ body {
    margin-top: var(--header-height);
  }
 
+h2 {
+  color: black
+}
 
 main > * {
   width: 90%;
@@ -43,6 +46,12 @@ main > * {
 .profile {
   margin-top: .7em;
   padding: .6em;  
+}
+
+#tweet-text {
+  display: flex;
+  justify-content: center;
+
 }
 
 article {
@@ -55,6 +64,9 @@ article {
 article p{
   display: flex;
   margin-left: 1em;
+  margin-bottom: .2em;
+  border-bottom: solid;
+  border-color: black;
 }
 article:hover{
   border-color: gray;
