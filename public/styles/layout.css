@@ -67,6 +67,7 @@ article p{
   margin-bottom: .2em;
   border-bottom: solid;
   border-color: black;
+  padding: .4em;
 }
 article:hover{
   border-color: gray;
