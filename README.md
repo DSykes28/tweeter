@@ -15,6 +15,6 @@ This repository is the starter code for the project: Students will fork and clon
   
 ## Screenshots
 
-!["Screenshot of desktop display of tweeter"] https://raw.githubusercontent.com/DSykes28/tweeter/master/docs/Tweeter_Desktop_img.png
-!["Screenshot of mobile display of tweeter"] https://raw.githubusercontent.com/DSykes28/tweeter/master/docs/Tweeter_condensed_view_header.png
-!["Screenshot of mobile display of tweeter body"] https://raw.githubusercontent.com/DSykes28/tweeter/master/docs/Tweeter_condensed_view_body.png
+!["Screenshot of desktop display of tweeter"] (https://raw.githubusercontent.com/DSykes28/tweeter/master/docs/Tweeter_Desktop_img.png)
+!["Screenshot of mobile display of tweeter"] (https://raw.githubusercontent.com/DSykes28/tweeter/master/docs/Tweeter_condensed_view_header.png)
+!["Screenshot of mobile display of tweeter body"] (https://raw.githubusercontent.com/DSykes28/tweeter/master/docs/Tweeter_condensed_view_body.png)
