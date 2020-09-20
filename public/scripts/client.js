@@ -81,7 +81,6 @@ $(document).ready( () => {
   $('#new-tweet-form').on('submit', function (event) {
     event.preventDefault()
     let data = $('#tweet-text');
-    // console.log(data); 
     if (errorTweet(event.target.elements.text.value) ) {
       return 
     }
