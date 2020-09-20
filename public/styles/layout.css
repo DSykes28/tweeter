@@ -48,15 +48,16 @@ main > * {
   padding: .6em;  
 }
 
+
 #tweet-text {
   display: flex;
   justify-content: center;
-
+  flex-wrap: wrap;
 }
 
 article {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   border-style: inset;
   border-color: black;
   margin-top: 1em;
@@ -77,6 +78,24 @@ article:hover .tagName {
   color: gray;
 }
 
+#errorEmpty {
+  display: flex;
+  justify-content: center;
+  color: red;
+  border-style: inset;
+  border-color: red;
+  border-width: .1em;
+}
+
+#errorLong {
+  display: flex;
+  justify-content: center;
+  color: red;
+  border-style: inset;
+  border-color: red;
+  border-width: .1em;
+}
+
 header.tweets {
   display: flex;
   justify-content: space-between;
@@ -95,3 +114,43 @@ footer {
   margin: .5em
 }
 
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {
+  .feature {
+    width: 33.3%;
+    line-height: 600px;
+  }
+
+  .content {
+    width: 66.7%;
+    float: right
+  }
+
+  .footer {
+    clear: right;
+  }
+};
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .hero {
+    width: 33.3%;
+    float: left;
+  }
+
+  .feature {
+    line-height: 300px;
+  }
+
+  .menu {
+    background-color: #111111;
+    color: #f0f0f0;
+    text-align: left;
+  }
+
+  .main {
+    max-width: 1024px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+};

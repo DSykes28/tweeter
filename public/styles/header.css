@@ -6,8 +6,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #a8bd95;
+  background: #4056A1;
   margin-top: var(--header-height);
-  background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .primary-header {
+    width: 33.3%;
+    background: #a8bd95;
+    float: left;
+    background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+  }
 }

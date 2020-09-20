@@ -50,15 +50,15 @@ const renderTweets = function(tweets) {
 const errorTweet = function (tweet) {
   let error = "";
 
-  if (tweet.length >= 140) {
-    $("#errorLong").show(); //=> console.log('....need a hide activation here...'));
+  if (tweet.length > 140) {
+    $("#errorLong").slideDown(400) //=> console.log('....need a hide activation here...'));
     // if(...){
     //   $("#errorLong").hide();
     // }
     return true;
   }
   if (tweet === "" || tweet === " " || tweet === null) {
-    $("#errorEmpty").show();
+    $("#errorEmpty").slideDown(400);
     return true;
   }
   return false;

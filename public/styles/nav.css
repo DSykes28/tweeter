@@ -6,7 +6,6 @@
 nav {
   display: flex;
   height: var(--header-height);
-  width: auto; 
   background: #4056A1;
   color: #ffffff; 
   font-family: 'Bungee', sans-serif;
@@ -14,12 +13,28 @@ nav {
   top: 0px;
   width: 100%;
   padding: .2em;
+  justify-content: space-between;
 }
 
 span {
   display: flex;
   font-family: 'Bungee', sans-serif;
   padding: 1.5em;
-  justify-content: space-between;
   align-items: flex-end;
+}
+
+.tagline {
+  display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+  align-items: center;
+  font-size: 24px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+  .tagline {
+    display: inline;
+
+  }
 }

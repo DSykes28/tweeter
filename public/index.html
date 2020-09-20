@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <!-- Meta Information -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <title>Tweeter - Home Page</title>
 
     <!-- External CSS -->
@@ -29,6 +30,9 @@
     <!-- Top nav bar (fixed) -->
     <nav>
       <span>tweeter</span>
+      <span class="tagline"> 
+        <strong>Write</strong> &nbsp; a new tweet
+      </span>
     </nav>
 
     <header class="primary-header">
@@ -49,8 +53,11 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
-        <p id="errorEmpty">Error please fill your tweet!</p>
-        <p id="errorLong">Error please keep to no more than 140 characters!</p>
+        <div>
+          <p id="errorEmpty">⛔️ Error your tweet is empty! ⛔️</p>
+          <p id="errorLong">⛔️ Error please keep to no more than 140 characters! ⛔️</p>
+        </div>
+
         <h2>Compose Tweet</h2>
         <form method="POST" action="/tweets/" id='new-tweet-form'>
           <label id="tweet-text-label">"What are you humming about?"</label>
