@@ -5,10 +5,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', function () {
-  
-//  document.getElementById('tweet-text').addEventListener('keyup', (evt) => {
-//    console.log(evt);
-//  });
+
 });
 
 const escape =  function(str) {
@@ -51,10 +48,8 @@ const errorTweet = function (tweet) {
   let error = "";
 
   if (tweet.length > 140) {
-    $("#errorLong").slideDown(400) //=> console.log('....need a hide activation here...'));
-    // if(...){
-    //   $("#errorLong").hide();
-    // }
+    $("#errorLong").slideDown(400) 
+  
     return true;
   }
   if (tweet === "" || tweet === " " || tweet === null) {
@@ -81,29 +76,7 @@ const loadTweets = function () {
 $(document).ready( () => {
 
   loadTweets();
-  //const $tweet = createTweetElement(tweetData);
-  //console.log($tweet); // to see what it looks like
-  //$('.container').append($tweet); // to add it to the page so we can make sure it's got all the right elements, classes, etc.
-  // Test / driver code (temporary)
-  /*
-  Listen on your input
-  on('change', () => {
-    
-    
-    
-    
-    
-    // inputGood <= obj = { 
-      isRight: false,
-      message: "the alert message" }
-    const inputGood = isInputRight() 
-    if(inputGood === true){
-      return null
-    } else {
-      return errorTweet(inputGood.message)
-    }
-  })
-  */
+
 
   $('#new-tweet-form').on('submit', function (event) {
     event.preventDefault()
