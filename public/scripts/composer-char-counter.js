@@ -8,8 +8,7 @@ $( document ).ready(function() {
          $counter.addClass('error')
       } else {$counter.removeClass('error')}
       $counter.text(charCount)
-       //console.log(this);
     });// --- our code goes here ---
-
+    
    $()
 });
